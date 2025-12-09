@@ -11,7 +11,8 @@ import SwiftUI
 struct DiProductAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductListView(apiService: ProductAPIService())
         }
     }
 }
+
